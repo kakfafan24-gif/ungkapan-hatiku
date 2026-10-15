@@ -1,0 +1,35 @@
+<!-- <div class="step" id="step-2"></div> --> 
+<!--Pada Step 2 Tambahkan tombol untuk kembali ke Halaman Awal (step-1):--> 
+<button class="btn-back" onclick="goToStep(1)">← Kembali</button>
+
+<!-- <div class="step" id="step-3"></div> -->
+<!-- Pada Step Tambahkan tombol di area yang kamu beri tanda merah untuk kembali ke Halaman Kartu (step-2): -->
+<button class="btn-back" onclick="goToStep(2)">← Kembali</button>
+
+<!-- STEP 3: Halaman Pernyataan Cinta (Final Proposal) -->
+ <div class="step" id="step-3">
+    <div class="proposal-box">
+        <div class="proposal-header">Isi Hatiku Untukmu...</div>
+        <div class="proposal-sub">~ Aku sayang padamu... ~</div>
+
+        <div class="tease-message" id="teaseText" style="display: none;"></div>
+
+        <div class="question-badge">
+            ❤️  ❤️
+        </div>
+
+        <div class="action-buttons">
+            <button class="btn-yes" id="btnYes" onclick="acceptLove()">Ya, Aku Mau</button>
+            <button class="btn-wait" id="btnWait" onclick="shrinkWaitButton()">Beri Aku Waktu</button>
+        </div>
+    </div>
+
+    <!-- TOMBOL KEMBALI DI SINI -->
+    <div>
+        <button class="btn-back" onclick="goToStep(2)">← Kembali</button>
+    </div>
+
+    <div class="bottom-caption">
+        Apapun Jawabanmu, Kamu Selalu Spesial Bagiku... 🤗
+    </div>
+</div>
